@@ -1,0 +1,34 @@
+[
+    {
+        "emailR":"hello@gmail.com",
+        "firstName":"hello",
+        "lastName":"world",
+        "role":"ADMIN",
+        "password":"hello@123",
+        "repassword":"hello@123"
+    },
+    {
+        "emailR":"hello2@gmail.com",
+        "firstName":"hellotwo",
+        "lastName":"worldtwo",
+        "role":"USER",
+        "password":"hello@123",
+        "repassword":"hello@123"
+    },
+    {
+        "emailR":"hello3@gmail.com",
+        "firstName":"hellothree",
+        "lastName":"worldthree",
+        "role":"USER",
+        "password":"hello@123",
+        "repassword":"hello@123"
+    },
+    {
+        "emailR":"hello4@gmail.com",
+        "firstName":"hellofour",
+        "lastName":"worldfour",
+        "role":"USER",
+        "password":"hello@123",
+        "repassword":"hello@123"
+    }
+]

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'roboto_condensedregular', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* card */
+.card{
+  overflow: hidden;
+}
+
+.card-body{
+  box-shadow: -2px 0px 17px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -2px 0px 17px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 0px 17px 0px rgba(0,0,0,0.75);
+
+  background-color: var(--bs-card-bg);
+}
+/* card */
+
+/* form */
+form{
+  width: 100% !important;
+}
+.form-label{
+  font-weight: 500;
+}
+/* form */
+
+/* login */
+.login_bg {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_bg::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.75;
+  background: linear-gradient(90deg, rgba(0,0,0,0.6923144257703081) 100%, rgba(0,0,0,0.5998774509803921) 100%, rgba(0,212,255,1) 100%);
+}
+/* login */
