@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+# User Management App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+Server side node (node.js), you can run:
+
+### `nodemon index.js`
 
 In the project directory, you can run:
 
@@ -79,4 +83,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - **Mysql database location:
 ```bash 
 ../User Management/users.sql
+```
+
+- **Postman collection location:
+```bash 
+../User Management/PostCollection.postman_collection.json
+```
+
+- **Postman Environment location:
+```bash 
+../User Management/PostmanEnvironment.postman_environment.json
 ```

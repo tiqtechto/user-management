@@ -52,7 +52,7 @@ function Header() {
         <header>
             <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
             <Container className='justify-content-between'>
-                <Navbar.Brand href="/">Library Management</Navbar.Brand>
+                <Navbar.Brand href="/">User Management</Navbar.Brand>
 
                 <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
                 <Nav className="">
